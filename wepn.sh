@@ -358,7 +358,7 @@ check_os(){
   fi
 
   if [[ "$os" == "Ubuntu" ]]; then
-      if ! [[ "$os_version" == "18.04" || "$os_version" == "20.04" || "$os_version" == "22.04" || "$os_version" == "22.10" ]]; then
+      if ! [[ "$os_version" == "18.04" || "$os_version" == "20.04" || "$os_version" == "22.04" || "$os_version" == "22.10" || "$os_version" == "24.04" ]]; then
           echo
           print center "[bold][red]This script has not been tested on\n [bold][yellow]$os $os_version [bold][red]yet!"
           fn_menu_21
